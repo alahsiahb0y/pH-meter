@@ -32,7 +32,7 @@ def calculate_ph(mass=None, molarity=None, volume=None, dilution=None, substance
     return None
 
 # Streamlit app
-st.title("pH Meter WebApp")
+st.title("pH Meter Buatan Anak D-IV NanoTekpang")
 
 st.sidebar.header("Input Parameters")
 substance_type = st.sidebar.radio("Select Substance Type", ["acid", "base"])
@@ -48,4 +48,4 @@ if st.sidebar.button("Calculate pH"):
     else:
         st.error("Unable to calculate pH. Please check your input values.")
 
-st.write("Enter the parameters in the sidebar to calculate the pH of a solution.")
+st.write("Kalkulator pH Khusus Untuk Anak Nano Buatan Kelompok 2.")
